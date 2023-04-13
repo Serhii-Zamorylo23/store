@@ -1,0 +1,201 @@
+.img{
+    width: 250px;
+}
+.Block{
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.Img2{
+    height: 200px;
+}
+.ProductBlock2{
+    margin-left: 8px;
+}
+.NameProducts2{
+    margin-left: 60px;
+}
+.Btn2{
+    margin-left: 65px;
+    border-radius: 9px;
+}
+.Price{
+    margin-left: 80px;
+}
+.Btn{
+    margin-left: 70px;
+    border-radius: 9px;
+}
+.Price2{
+    margin-left: 85px;
+}
+.ProductBlock{
+    border: 0.5mm solid rgb(206, 8, 8);
+    border-radius: 8px;
+}
+.ProductBlock2{
+    border: 0.5mm solid rgb(255, 15, 192);
+    border-radius: 8px;
+}
+.NameProducts{
+    margin-left:55px;
+}
+.img3{
+    width: 70px;
+}
+.Btn3{
+    border-radius: 8px;
+}
+.ProductBlock3{
+    margin-left: 10px;
+    border: 0.5mm solid rgb(255, 179, 0);
+    border-radius: 8px;
+}
+.img4{
+    width: 200px;
+    height: 200px;
+}
+.NameProducts4{
+    margin-left: 50px
+}
+.Price4{
+    margin-left: 60px;
+}
+.Btn4{
+    margin-left: 60px;
+    border-radius: 8px;
+}
+.ProductBlock4{
+    border: 0.5mm solid rgba(255, 0, 0, 0.64);
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.Btn:hover{
+    transition-duration:1s;
+    border: none;
+    background: rgb(255, 17, 0);
+    color: #fff;
+}
+.Btn2:hover{
+    transition-duration: 1s;
+    border: none;
+    background: rgb(255, 15, 192);
+    color:#fff
+}
+.Btn3:hover{
+    transition-duration: 1s;
+    border: none;
+    background: rgb(255, 174, 0);
+    color:#fff
+}
+.Btn4:hover{
+    transition-duration: 1s;
+    border: none;
+    background: rgb(255, 15, 15);
+    color: #fff
+}
+.Btn:focus{
+    transition-duration: 1s;
+    border: none;
+    background: white;
+    color:black
+}
+.Btn2:focus{
+    transition-duration: 1s;
+    border: none;
+    background: #fff;
+    color: black;
+}
+.Btn3:focus{
+    transition-duration: 1s;
+    border: none;
+    background: #ffff;
+    color: black;
+}
+.Btn4:focus{
+    transition-duration: 1s;
+    border:none;
+    background: #fff;
+    color:black
+}
+.he{
+    height: 34px;
+    text-align: center;
+    background: powderblue;
+}
+.name{
+    text-align: center;
+    margin-right: 23px;
+}
+.contact{
+    text-decoration: none;
+    color:black;
+    margin-right: 720px;
+}
+.phone{
+    margin-right: 7px;
+}
+.TableProducts{
+    border: 2px solid rgb(121, 11, 232);
+    margin-top: 50px;
+    margin-left: 560px;
+    width: 30%;
+}
+.info{
+    border: 2px solid  rgb(121, 11, 232);
+}
+.table{
+    border: 2px solid rgb(121, 11, 232);
+}
+.nayavnist{
+    color: rgb(8,182,8);
+}
+.table2{
+    border: 2px solid rgb(121,11,232);
+}
+.nayavnist2{
+    color:red
+}
+.forms{
+    text-decoration: none;
+}
+.table3{
+    border: 2px solid rgb(121,11,232);
+}
+.nayavnist3{
+    color:rgb(8, 182, 8);
+}
+.table4{
+    border: 2px solid rgb(121,11,232)
+}
+.nayavnist4{
+    color:red
+}
+.forms2{
+    text-decoration: none;
+}
+.ochikuvannya{
+    border: 2px solid rgb(121,11,232);
+    font-weight: 700;
+}
+.container2{
+    justify-content: center;
+    display: flex;
+}
+.navigation{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.buttonBasket{
+    width: 40px;
+    height:40px;
+}
+.home{
+    color: black;
+    text-decoration: none
+}
+.container{
+    margin-top: 60px;
+}
