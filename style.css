@@ -121,8 +121,8 @@
     color:black
 }
 .he{
-    height: 34px;
-    text-align: center;
+    height: 44px;
+    text-align: right;
     background: powderblue;
 }
 .name{
@@ -197,5 +197,24 @@
     text-decoration: none
 }
 .container{
-    margin-top: 60px;
+    margin-top: 50px;
+}
+.Navbtn{
+    cursor: pointer;
+}
+ul{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+    border: none;
+}
+.Navbtn{
+    border: none;
+    background: powderblue;
+}
+.sub-button{
+    border: none;
+    background: none;
+    flex-wrap: nowrap;
 }
