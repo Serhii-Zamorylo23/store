@@ -72,54 +72,6 @@
     border-radius: 8px;
     margin-left: 10px;
 }
-.Btn:hover{
-    transition-duration:1s;
-    border: none;
-    background: rgb(255, 17, 0);
-    color: #fff;
-}
-.Btn2:hover{
-    transition-duration: 1s;
-    border: none;
-    background: rgb(255, 15, 192);
-    color:#fff
-}
-.Btn3:hover{
-    transition-duration: 1s;
-    border: none;
-    background: rgb(255, 174, 0);
-    color:#fff
-}
-.Btn4:hover{
-    transition-duration: 1s;
-    border: none;
-    background: rgb(255, 15, 15);
-    color: #fff
-}
-.Btn:focus{
-    transition-duration: 1s;
-    border: none;
-    background: white;
-    color:black
-}
-.Btn2:focus{
-    transition-duration: 1s;
-    border: none;
-    background: #fff;
-    color: black;
-}
-.Btn3:focus{
-    transition-duration: 1s;
-    border: none;
-    background: #ffff;
-    color: black;
-}
-.Btn4:focus{
-    transition-duration: 1s;
-    border:none;
-    background: #fff;
-    color:black
-}
 .he{
     height: 44px;
     text-align: right;
@@ -188,10 +140,6 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.buttonBasket{
-    width: 40px;
-    height:40px;
-}
 .home{
     color: black;
     text-decoration: none
@@ -225,7 +173,6 @@ ul{
 .subnav-list{
     position: absolute;
     width: 90px;
-    margin-right: 20px;
     display:none ;
     text-align: center;
 }
@@ -235,4 +182,24 @@ ul{
 }
 .nuv-link{
     margin: 0 auto;
+}
+.BT {
+    background: #2ecc71;
+    color: #fff;
+}  
+.BT:hover {
+    background: #27ae60;
+}
+.BT:active {
+    background: #27ae60;
+    top: 2px;
+}
+.BT:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
 }
