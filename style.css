@@ -188,24 +188,9 @@ ul{
 }
 .BT {
     background: #2ecc71;
+    border: none;
     color: #fff;
 }  
-.BT:hover {
-    background: #27ae60;
-}
-.BT:active {
-    background: #27ae60;
-    top: 2px;
-}
-.BT:before {
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    line-height: 3;
-    font-size: 140%;
-    width: 60px;
-}
 .bass{
     position: absolute;
     width: 20px;
@@ -218,4 +203,10 @@ ul{
 }
 .for{
     text-decoration: none;
+}
+.subnav-list:hover{
+    animation-name: subnav-list;
+}
+@keyframes subnav-list{
+    
 }
